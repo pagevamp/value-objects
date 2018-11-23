@@ -1,0 +1,20 @@
+{
+    "name": "pagevamp/value-objects",
+    "authors": [
+        {
+            "name": "Naren",
+            "email": "developer.naren@gmail.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4" : {
+            "Pvo\\" : "src/"
+        }
+    },
+    "require": {
+        "nesbot/carbon": "^2.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.4"
+    }
+}
